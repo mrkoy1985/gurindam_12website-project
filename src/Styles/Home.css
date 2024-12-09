@@ -1,0 +1,78 @@
+/* Styling untuk gambar utama */
+.custom-img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Wrapper untuk gambar dan teks utama */
+.image-container {
+    position: relative;
+    margin-top: 100px;
+    text-align: left;
+}
+
+/* Styling teks overlay di kiri bawah gambar utama */
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 50%;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+/* Styling untuk grid gambar */
+.image-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Mengatur kolom gambar */
+.image-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Styling untuk gambar ikon di dalam grid */
+.grid-img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 50%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+/* Styling untuk content */
+.content {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.content h2 {
+    margin-bottom: 5px;
+    margin-left: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+}
+
+.content p {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,88 @@
+.logpage {
+  background-color: #28808a;
+}
+.imagekedua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 2px;
+}
+.img {
+  border-radius: 50%;
+}
+
+.formPage {
+  height: 150px;
+  width: 200px;
+}
+
+form {
+  border: solid;
+  padding: 50px;
+  border-radius: 40px;
+  width: 342px;
+  height: 480px;
+  padding-top: 20px;
+  background-color: white;
+  border-color: gray;
+}
+
+.judul {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins", Arial, sans-serif;
+  padding-top: 0.5px;
+  padding-bottom: 10px;
+}
+
+.mb-2 {
+  padding: 40px;
+  width: 467.67px;
+  height: 62.8px;
+}
+
+button {
+  align-items: center;
+  /* width: 150px;
+    height: 42.8px; */
+  border-radius: 13px;
+}
+
+.masuk {
+  font-size: 20px;
+  text-align: center;
+}
+
+.lupsan {
+  color: #3681a8;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+button p {
+  font-size: 25px;
+  font-weight: bold;
+  align-items: 20px;
+}
+
+.warna-kata {
+  padding-top: 35px;
+  text-align: center;
+}
+.kata-1 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.kata-2 {
+  color: #3681a8;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}

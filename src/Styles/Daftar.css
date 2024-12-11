@@ -1,0 +1,61 @@
+.daftarpage {
+  background-color: #28808a;
+}
+.imageketiga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 2px;
+}
+
+content {
+  background-color: #28808a;
+}
+
+.formPage {
+  margin-top: 80px;
+  height: 85vh;
+}
+
+form {
+  border: solid;
+  padding: 50px;
+  border-radius: 40px;
+  width: 542px;
+  height: 620px;
+  padding-top: 20px;
+  background-color: white;
+  border-color: gray;
+}
+
+.juduldaf {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 0.5px;
+  padding-bottom: 10px;
+}
+.custom-width {
+  width: 467.67px;
+  height: 62.8px;
+}
+
+button {
+  align-items: center;
+  width: 467.67px;
+  height: 62.8px;
+  border-radius: 13px;
+}
+
+.regist {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+button p {
+  font-size: 25px;
+  font-weight: bold;
+}

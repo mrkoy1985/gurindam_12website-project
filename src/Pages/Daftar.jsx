@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Container, Row, Col } from "react-bootstrap";
 import "../Styles/Daftar.css";
+import { Link } from "react-router-dom";
 
 // import Login from "./pages/Login";
 
@@ -55,7 +56,9 @@ function Daftar() {
                   <Form.Control type="password" placeholder="Email.." />
                 </Form.Group>
                 <Button variant="primary" type="Daftar">
-                  <p className="regist">Daftar</p>
+                  <Link to="/login">
+                    <p className="regist">Daftar</p>
+                  </Link>
                 </Button>
               </Form>
             </Col>

@@ -8,6 +8,7 @@ import Daftar from "./Daftar";
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -24,6 +25,7 @@ function Login() {
             <Col>
               <Form>
                 <p className="judul">Masuk</p>
+
                 <InputGroup className="mb-2">
                   <InputGroup.Text>
                     <FaUser className="search-icon" />
@@ -47,7 +49,9 @@ function Login() {
                 </InputGroup>
                 <p className="lupsan">Lupa Kata Sandi</p>
                 <Button variant="primary" type="Masuk">
-                  <p className="masuk">Masuk</p>
+                  <Link to="/">
+                    <p className="masuk">Masuk</p>
+                  </Link>
                 </Button>
                 <div class="warna-kata">
                   <span class="kata-1">Belum punya akun?</span>

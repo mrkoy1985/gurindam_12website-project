@@ -59,3 +59,12 @@ button p {
   font-size: 25px;
   font-weight: bold;
 }
+
+.bg-navbar {
+  background-color: #28808a;
+}
+
+.text-login {
+  font-size: 25px;
+  color: white;
+}

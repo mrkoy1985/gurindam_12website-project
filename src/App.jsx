@@ -1,24 +1,26 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbarlandpage";
+// import Sidebar from "./components/sidebar";
 import Home from "./Pages/Home";
+// import About from "./Pages/About";
 import Login from "./Pages/Login";
-import Layout from "./Components/Layout";
-import Footer from "./Pages/Footer";
-import Daftar from "./Pages/Daftar";
+import Jadwal from "./Pages/Jadwal";
+// import NavigationBar from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LayananOrientasi from "./Pages/layanan_orientasi";
+import Layanan_informasi from "./Pages/Layanan_informasi";
 
 function App() {
   return (
     <>
-      <BrowserRouter BrowserRouter>
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route path="/" element={<Home />} />
-          </Route>
-          <Route path="/login" element={<Login />} />
-          <Route path="/daftar" element={<Daftar />} />
+          <Route path="/" element={<Home />}></Route>
+          {/* <Route path="/about" element={<About />}></Route> */}
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/jadwal" element={<Jadwal />}></Route>
+          <Route path="/orientasi" element={<LayananOrientasi />}></Route>
+          <Route path="/konsultasi" element={<Layanan_informasi />}></Route>
         </Routes>
-        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

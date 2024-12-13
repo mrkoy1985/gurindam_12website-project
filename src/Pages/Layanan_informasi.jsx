@@ -2,9 +2,11 @@ import React from "react";
 import NavigationBar from "../components/Navbar";
 import Sidebar from "../components/sidebar";
 // import YoutubeEmbed from "../components/YoutubeEmbed";
-import "../Styles/layananOrientasi.css";
+import poster from "../assets/BAHAYA1.png";
+// import "../Styles/layananOrientasi.css";
+import "../Styles/layananInformasi.css";
 
-function Home() {
+function Layanan_informasi() {
   return (
     <>
       <div>
@@ -15,14 +17,15 @@ function Home() {
             <div className="col-2">
               <Sidebar />
             </div>
-            {/* <div className="col-10">
-              <YoutubeEmbed embedId="niHbUcxuDA8" />
-            </div> */}
+            <div className="col-10">
+              <img src={poster} alt="asdasadasda" className="poto" />
+            </div>
           </div>
         </div>
       </div>
+      <div className="row"></div>
     </>
   );
 }
 
-export default Home;
+export default Layanan_informasi;

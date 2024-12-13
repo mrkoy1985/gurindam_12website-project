@@ -1,0 +1,10 @@
+.jadwal {
+  padding: 00px;
+  display: flex;
+  justify-content: center;
+}
+
+.lebarJadwal {
+  width: 1000px;
+  height: 750px;
+}

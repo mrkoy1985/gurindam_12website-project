@@ -1,5 +1,6 @@
 .daftarpage {
   background-color: #28808a;
+  background-repeat: repeat;
 }
 .imageketiga {
   display: flex;
@@ -15,7 +16,6 @@ content {
 
 .formPage {
   margin-top: 80px;
-  height: 85vh;
 }
 
 form {
@@ -27,6 +27,10 @@ form {
   padding-top: 20px;
   background-color: white;
   border-color: gray;
+}
+
+.styling-form {
+  height: 580px;
 }
 
 .juduldaf {
@@ -46,6 +50,11 @@ button {
   width: 467.67px;
   height: 62.8px;
   border-radius: 13px;
+}
+
+.buttondaftar {
+  width: 467.67px;
+  height: 50px;
 }
 
 .regist {

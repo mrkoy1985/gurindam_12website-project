@@ -1,0 +1,39 @@
+.endwebsite {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 20px;
+}
+
+.awal {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.fotoguru {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.isibalasan {
+  font-size: 15px;
+  color: gray;
+}
+
+.inikanan {
+  margin-left: 80px;
+}
+
+.gagal {
+  color: red;
+}
+
+.janjitemu {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.tgl {
+  color: gray;
+}

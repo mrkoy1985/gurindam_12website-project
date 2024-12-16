@@ -30,11 +30,7 @@ function Login() {
                   <InputGroup.Text>
                     <FaUser className="search-icon" />
                   </InputGroup.Text>
-                  <Form.Control
-                    className="tes"
-                    type="text"
-                    placeholder="Masukkkan NIS.. "
-                  />
+                  <Form.Control type="text" placeholder="Masukkkan NIS.. " />
                 </InputGroup>
 
                 <InputGroup className="mb-2">
@@ -48,7 +44,7 @@ function Login() {
                   />
                 </InputGroup>
                 <p className="lupsan">Lupa Kata Sandi</p>
-                <Button variant="primary" type="Masuk">
+                <Button className="buttonlogin" variant="primary" type="Masuk">
                   <Link to="/">
                     <p className="masuk">Masuk</p>
                   </Link>

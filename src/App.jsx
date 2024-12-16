@@ -6,6 +6,7 @@ import Login from "./Pages/Login";
 import Layout from "./Components/Layout";
 import Footer from "./Pages/Footer";
 import Daftar from "./Pages/Daftar";
+import Akhir from "./Pages/Akhir";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </Route>
           <Route path="/login" element={<Login />} />
           <Route path="/daftar" element={<Daftar />} />
+          <Route path="/akhir" element={<Akhir />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

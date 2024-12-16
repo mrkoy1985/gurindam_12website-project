@@ -20,7 +20,7 @@ function Daftar() {
         >
           <Row>
             <Col>
-              <Form>
+              <Form className="styling-form">
                 <p className="juduldaf">Registrasi</p>
                 <Form.Group
                   className="mb-3 custom-width"
@@ -54,12 +54,23 @@ function Daftar() {
                   controlId="formBasicPassword"
                 >
                   <Form.Control type="password" placeholder="Email.." />
+                  <br />
+                  <Button
+                    className="buttondaftar"
+                    variant="primary"
+                    type="Daftar"
+                  >
+                    <Link to="/login">
+                      <p className="regist">Daftar</p>
+                    </Link>
+                  </Button>
                 </Form.Group>
-                <Button variant="primary" type="Daftar">
+
+                {/* <Button variant="primary" type="Daftar">
                   <Link to="/login">
                     <p className="regist">Daftar</p>
                   </Link>
-                </Button>
+                </Button> */}
               </Form>
             </Col>
           </Row>
